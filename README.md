@@ -30,7 +30,7 @@ wget https://raw.githubusercontent.com/sh13y/windows-server-qemu-installer/main/
 After downloading, grant execution permission to the script:
 
 ```bash
-chmod +x windows-server-autoinstaller.sh
+chmod +x windows-server-auto-installer.sh
 ```
 
 #### **3. Run the Script**
@@ -38,7 +38,7 @@ chmod +x windows-server-autoinstaller.sh
 Run the script to start the installation process:
 
 ```bash
-./windows-server-autoinstaller.sh
+./windows-server-auto-installer.sh
 ```
 
 The script will perform the following tasks:
