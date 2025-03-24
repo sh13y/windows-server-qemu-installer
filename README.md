@@ -13,7 +13,7 @@ This script automates the installation of Windows Server or Windows desktop vers
 - Windows Server 2022
 - Windows 10
 - Windows 11
-- Windows 10 21H2
+- Windows 10 22H2
 
 ### **Installation Instructions**
 
