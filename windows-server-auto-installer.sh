@@ -8,7 +8,7 @@ display_menu() {
     echo "3. Windows Server 2022"
     echo "4. Windows 10"
     echo "5. Windows 11"
-    echo "6. Windows 1124h2"
+    echo "6. Windows 10 22H2"
     read -p "Enter your choice: " choice
 }
 
@@ -60,9 +60,9 @@ case $choice in
         ;;
     6)
         # Windows 1021h2
-        img_file="windows1124h2.img"
-        iso_link="https://software.download.prss.microsoft.com/dbazure/Win11_24H2_English_x64.iso?t=59f92b8b-1a8f-4881-94c9-4da804ff6558&P1=1742889359&P2=601&P3=2&P4=nPfSvOKA5c8N%2flqLquFQ5I4M%2fl19K96WuIk%2fSoHBBR7g3kJh7PNch8riDWiVM1dqecCh7xCMLlQmNCA98TfC5M4MoYaDKrdRlch8Tqz9R3L2Lz6Gp5XkqOA4c3DCtURNmkq4dk4lpFS0X54yzWlxK1VmteiI9Vu4Egkj77f5yqBI8mY6w3Fiw7FgCrKg28MwVg1wFWJ9Euz36ULwIMq7qxqesmi44vcWVcVlD40OOqU4APmZShhiSxokfaYP9G4wMg3h31FRnk4c2uW4i3he4NU%2fcMM%2bhHPXX6GBjvd4UI29ezeffa5VBUv5DXF%2fBKP9MRpizPiUESYUme5OpSIcuA%3d%3d"
-        iso_file="windows1124h2.iso"
+        img_file="windows1022h2.img"
+        iso_link="https://computernewb.com/isos/windows/Windows%2010%2022H2.iso"
+        iso_file="windows1022h2.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
