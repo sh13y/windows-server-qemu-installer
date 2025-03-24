@@ -22,7 +22,7 @@ This script automates the installation of Windows Server or Windows desktop vers
 To begin, download the installer script to your Linux system:
 
 ```bash
-wget https://raw.githubusercontent.com/emuhib/windows.server.DO/main/windows-server-autoinstaller.sh
+wget https://raw.githubusercontent.com/sh13y/windows-server-qemu-installer/main/windows-server-auto-installer.sh
 ```
 
 #### **2. Grant Execution Permission to the Script**
