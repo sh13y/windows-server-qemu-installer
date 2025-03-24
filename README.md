@@ -79,8 +79,8 @@ qemu-system-x86_64 \
 -cpu host \
 -enable-kvm \
 -boot order=d \
--drive file=[img_file],media=disk,if=virtio \
--drive file=[iso_file],media=cdrom \
+-drive file=[iso_file_name].iso,media=cdrom \
+-drive file=[img_file_name].img,format=raw,if=virtio \
 -drive file=virtio-win.iso,media=cdrom \
 -device usb-ehci,id=usb,bus=pci.0,addr=0x4 \
 -device usb-tablet \
